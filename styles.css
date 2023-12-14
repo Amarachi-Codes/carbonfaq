@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.faqItem{
+    padding: 8px 20px;
+    margin: 16px;
+}
+.faqItem .questions{
+    font-weight: bold;
+    
+}
+.faqItem .answer{
+    display: none;
+    padding: 6px 0;
+}
+.faqItem .questions .toggleIcon{
+    padding: 2px 4px;
+    background-color: aliceblue;
+    border: 1px solid grey;
+    border-radius: 8px;
+}
